@@ -1,0 +1,8 @@
+on:
+  push:
+
+jobs:
+ demo:
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "hi teddybear"
